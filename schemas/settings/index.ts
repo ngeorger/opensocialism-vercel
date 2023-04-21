@@ -11,7 +11,7 @@ export default defineType({
   icon: CogIcon,
   preview: { select: { title: 'title', subtitle: 'description' } },
   // Uncomment below to have edits publish automatically as you type
-  // liveEdit: true,
+  liveEdit: true,
   fields: [
     defineField({
       name: 'title',
