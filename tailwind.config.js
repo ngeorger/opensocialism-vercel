@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: [
     './components/**/*.{js,ts,jsx,tsx}',
     './intro-template/**/*.{js,ts,jsx,tsx}',
@@ -7,6 +8,7 @@ module.exports = {
     './plugins/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    //  Dark mode by default
     extend: {
       colors: {
         'accent-1': '#FAFAFA',
@@ -27,10 +29,10 @@ module.exports = {
         tight: 1.2,
       },
       fontSize: {
-        '5xl': '2.5rem',
-        '6xl': '2.75rem',
-        '7xl': '4.5rem',
-        '8xl': '6.25rem',
+        '5xl': '1.5rem',
+        '6xl': '1.75rem',
+        '7xl': '2.5rem',
+        '8xl': '3.25rem',
       },
       boxShadow: {
         small: '0 5px 10px rgba(0, 0, 0, 0.12)',
